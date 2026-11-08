@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+
+# Data / models
+data/*.db
+data/*.wav
+data/*.mp3
+data/*.m4a
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# CUDA / torch
+*.pt
+*.pth
